@@ -5,3 +5,4 @@ function Dog(){
 Dog.prototype.eat = function(cat) {
 	this.stomatch.push(cat);
 };
+Module.export = Dog;
