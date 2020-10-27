@@ -8,4 +8,4 @@ Dog.prototype.eat = function(cat) {
 Dog.prototype.sayHi = function() {
 	log('hi')
 };
-Module.export = Dog;
+module.export = Dog;

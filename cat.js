@@ -4,4 +4,4 @@ function Cat(){
 Cat.prototype.eat = function(mouse) {
 	this.stomatch.push(mouse);
 };
-Module.exports = Cat;
+module.exports = Cat;
